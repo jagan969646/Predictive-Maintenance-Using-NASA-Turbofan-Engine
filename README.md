@@ -1,4 +1,20 @@
 # Predictive-Maintenance-Using-NASA-Turbofan-Engine
+
+This independent project by **Jagadeesh N**, a final-year BBA student, applies machine learning and deep learning techniques to predict the Remaining Useful Life (RUL) of turbofan engines using NASA's CMAPSS FD001 dataset.
+
+## 🔍 Project Highlights
+- Built a full ML pipeline: data preprocessing, rolling feature engineering, model training
+- Compared XGBoost, LSTM, and CNN-LSTM architectures
+- Achieved best performance with CNN-LSTM (RMSE: 21.50)
+- Addressed challenges like noisy sensors, NaNs, and gradient instability
+- Proposed future enhancements: attention models, deployment pipelines, business integration
+
+## 🛠️ Skills Demonstrated
+- Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn)
+- Deep Learning (LSTM, CNN-LSTM)
+- SQL, Excel, Power BI
+- ETL pipelines, dashboard automation
+- Business analytics and product thinking
 This project applies predictive maintenance methods to the NASA CMAPSS dataset for estimating the Remaining Useful Life (RUL) of turbofan engines. Accurate RUL prediction is crucial in aerospace and industrial systems to avoid unexpected failures and reduce costs.
 The dataset, containing multivariate time-series sensor data, was preprocessed through cleaning, normalization, and feature engineering. Rolling statistics (mean, standard deviation, slope) were generated to capture degradation trends. RUL values were derived by subtracting the operating cycle from the engine’s maximum cycle.
 
